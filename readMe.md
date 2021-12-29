@@ -152,6 +152,8 @@ Task1:
      CSS code
  }
  '''
+
+ 
 Task3:
 ===
   - Navbar with response
@@ -197,13 +199,18 @@ Task3:
   - dark
   - white
 
-+ we can use colora classes for 
++ we can use color classes for 
     - Buttons(btn btn-primary)
     - text(text-white)
     - background(bg-secondary)
     - alerts (alert alert-primary)
 
-
++ Grid System
+   - col
+   -  sm(small devices)
+   - md(medium devices)
+   - lg(large devices)
+   - xl(Extra large devices)
 ### Reference links
 - [Flaiticon](https://www.Flaticon.com)
 - [clor codes](https://htmlcolorcodes.com/)
