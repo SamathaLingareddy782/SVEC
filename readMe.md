@@ -146,12 +146,12 @@ Task1:
        - min-width:1200px
 
 
- '''
+ ```
  @media only screen (min-width:320px) and 
  (max-width:500px){
      CSS code
  }
- '''
+ ```
 
  
 Task3:
@@ -211,6 +211,62 @@ Task3:
    - md(medium devices)
    - lg(large devices)
    - xl(Extra large devices)
+### Java Script
+
+
+ + In 1995 `Brenden Eich` introduced Javascript (ES-262) 
+ + Javascript is loosely toupled and dynamic language
+ + It is atext base programming language and we can run client-side and server-side (Node.Js) for dynamic web applications  
+ -   ECHMA-Script (ES-6)
+     - let & const  
+     -  map() function
+     - arrow function
+     - classes
+     - spread operator
+     - rest parameter
++ Datatypes
+    - Number
+    - BigInt(2^53-1)
+    - String
+    - Boolean
+    - Undefine
+    - Null
+    - Object
+    - Array
+
++ variables
+     - var,let & const
+     - Scope
+        - function level --> var
+        - block level --> let &const
+     - Redefine -->var ,let
+     - Redeclare --> var
++ `typeof()`    
++ object
+
+```
+{
+
+    name:"akhila"
+}
+```
+### Alerts
++ To generate notifications    
+-  alert
+-  prompt(to take input from  the user)
+- confirm 
+
++ console statments
+  - `console.log()`
+  - `console.info()`
+  - `console.warn()`
+  - `console.error()`
++ spread operators
+  - To change array elements from one array to another
+ ``` 
+   ...variableName
+
+```
 ### Reference links
 - [Flaiticon](https://www.Flaticon.com)
 - [clor codes](https://htmlcolorcodes.com/)
