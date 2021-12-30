@@ -267,7 +267,78 @@ Task3:
    ...variableName
 
 ```
++ Rest parameters
+  + To handle function parameters
+
+```
+   ...parameters
+
+```   
++ Destucturing of array &objects
+
+
+
++ Functions
+     - Function with functionname
+  ```
+     function demo(x,y){
+         return x+y
+     }
+  
+  demo()
+  ```
+  - Anonymous function
+  ```
+ let demo= function (x,y)
+ {
+       return x+y
+ }
+
+ + for-in
+    - To get index value of an array
++ for-of
+     - To get elements in an array
++ forEach() (ES-5)
++ map --> (ES-6)         
+
+### DOM
+- Document Object Modal
+- document
+- history
+- window
+- navigator
++ DOM Methods
+   - `getElementById`
+   - `getelementsByClassName`
+   - `querySelector`
+   - `innerText`
+   - `append`
+   - `appendChild`
+   - `innerHTML`
+   - `setAttribute`
+   - `classList`
+   - `style`
+   - `src`
+
+
+### JSON
++ JavaScript Object Notation
+    - To exchange information between client and server
+
+
+```
+    {
+       "name":"Samatha Pothamsetty",
+       "salary":"8LPA",
+       "Designation":"MERN Develper",
+       "Mobile":9989796959
+    }
+
+ ```   
+ + Ajax call or promises(fetch API) or Axios\
+
+ 
 ### Reference links
 - [Flaiticon](https://www.Flaticon.com)
-- [clor codes](https://htmlcolorcodes.com/)
+- [color codes](https://htmlcolorcodes.com/)
 - [Contrast checker](https://webaim.org/resources/contrastchecker/)
