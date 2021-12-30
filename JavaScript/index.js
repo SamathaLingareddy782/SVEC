@@ -1,3 +1,4 @@
+ " use strict"
 // //  let name="vamcy";
 // // var age=20;
 
@@ -32,8 +33,8 @@
 // alert("Registration is completed succesfully")
 
 
- let number1=prompt("enter number1")
-console.log(number1)
+// let number1=prompt("enter number1")
+//console.log(number1)
 
 // confirm("Are you sure to exit")
 
@@ -89,3 +90,40 @@ console.log(number1)
 // console.log(uname)
 // console.log(designation)
 // console.log(remainList)
+
+
+// let demo=function(x,y){
+//     return x+y
+// }
+
+
+//arrow function
+
+// let demo= (x,y) => {
+//     return x*y
+// }
+//  console.log(demo(3,4))
+
+ let employees=["ram","pavan","shyam","Abdul"]
+ 
+// for(let i=0;i<employees.length;i++){
+//     console.log(employees[i])
+
+// for(let i in employees){
+//     console.log(i)
+// }
+
+//  for(let i of employees){
+//      console.log(i)
+//  }
+
+//map function
+
+ let result=employees.map(function(element,index){
+     return element+" k"+ index
+ }) 
+    
+ console.log(employees)
+
+  
+//    console.log(result)

@@ -11,6 +11,16 @@
     
 </head>
 <body>
+
+
+<div class="main">
+    <div class="child">
+<h3 id="demo">heading
+<span>Text</span><a href="">link</a></h3>
+    </div>
+
+</div>
+
     <script>
 
 //     function demo {
@@ -24,10 +34,17 @@
 //     }
 //  console.log(demo())
 // console.log(age);
-// var  age=23;
 
 
 
+var main=document.querySelector(".main");
+var child=document.querySelector(".child")
+  var heading=document.createElement('h1');
+      heading.textContent="welcome"
+      child.appendChild(heading);
+      main.appendChild(child);
+      var content=document.getElementById.innerHTML;
+        console.log(content);
 </script>
 </body>
 </html>
