@@ -351,6 +351,30 @@ Task3:
 + It provides JSX (javascript and XML)
 + Unidirectional data flow
 + Single page Applications  
+
+
++ props
+  
+    - To pass data from one component to another component we will use props
+    - props are immutable
+
+
+
+
++ states
+
+- In react to maintain information we will use states
+```
+constructor() {
+
+super();
+this.state={
+
+}
+
+}
+```
+
 + Project Environmental setups
     - [Download Visual studio Code]()
     - [Download Nodejs](https://nodejs.org/en/download/)
@@ -370,17 +394,17 @@ Task3:
     - nav.j
     - body.js
     - footer.js
-
-+ Home.js
-    - nav
-    - body
-    - footer
+    + Home.js
+       - nav
+       - body
+       - footer
 
 + Login.js
 + Register
 + About
 + contact    
- 
+
+
 ### Reference links
 - [Flaiticon](https://www.Flaticon.com)
 - [color codes](https://htmlcolorcodes.com/)
