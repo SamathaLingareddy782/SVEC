@@ -335,8 +335,51 @@ Task3:
     }
 
  ```   
- + Ajax call or promises(fetch API) or Axios\
+ + Ajax call or promises(fetch API) or Axios
 
+
+### ReactJs
+
+### ReactJs Features
++ It is a Library
++ It follows compound base architecture
+   - function component
+   - class component
+   - pure component
+   - higher order component
++ It provides virtual DOM
++ It provides JSX (javascript and XML)
++ Unidirectional data flow
++ Single page Applications  
++ Project Environmental setups
+    - [Download Visual studio Code]()
+    - [Download Nodejs](https://nodejs.org/en/download/)
+    - install nodejs and check versions os `node` and `npm`
+        - `node -v`
+        - `npm -v`(node package manager)
+    - `webpack` and `babel`
+    - `create-react-app`
+        - `npm install create-react-app`
+            -`create-react-app projectname`
+    - `npx create-react-app appname`(node package runner)
+
++ Index.html
++ index.js
++ App.js
++ Index Page
+    - nav.j
+    - body.js
+    - footer.js
+
++ Home.js
+    - nav
+    - body
+    - footer
+
++ Login.js
++ Register
++ About
++ contact    
  
 ### Reference links
 - [Flaiticon](https://www.Flaticon.com)
