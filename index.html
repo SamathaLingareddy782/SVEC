@@ -4,93 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>:: JavaScript ::</title>
+     <script src="./index.js">
+
+    </script> 
+    
 </head>
 <body>
-    <header>
-        <img src="./images/svec-logo.jpg" alt="svec-logo"height="100px" width="100px">
-    <span> Sri Vidyanikethan Engineering College</span>
-    <img src="./images/download.jpg" alt="download"height="100px" width="100px">
-    <p> This is paragraph</p>
-    <nav>
-        <ul>
-            <li><a href="./home.html">
-                  Home      
-              </a>
-            </li>
-            <li><a href="./service.html">Services</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
-    <div>
-        <span>Text1</span>
-        <span>Text2</span>
-        <sup>wel</sup>
-        <sub>come</sub>
+
+
+<div class="main">
+    <div class="child">
+<h3 id="demo">heading
+<span>Text</span><a href="">link</a></h3>
     </div>
-    <section>
-        <h1>Web Technologies</h1>
-        <p>Frontend Developer must have good Knowledge on
-             Web Technologies
-        </p>
-    </section>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ol>
-    </header>
+
+</div>
+
+    <script>
+
+//     function demo {
+//         var name="Radhaya"
+//         function list(){
+//             var name1=" karna"
+//             console.log(name)
+//         }
+//         list();
+//         // console.log(name1)
+//     }
+//  console.log(demo())
+// console.log(age);
 
 
-    <div>
-        <table border="5">
-            <thead>
-                <tr>
-                    <th>S.No</th>
-                    <th>Student Name</th>
-                    <th>Qualification</th>
-                    <th>College /University</th>
-                    <th>CGPA</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Samatha</td>
-                    <td>B.Tech</td>
-                    <td>Sri vidyanikethan engineering college</td>
-                    <td>9.38</td>
-                </tr> <tr>
-                    <td>2</td>
-                    <td>Greeshma</td>
-                    <td>B.Tech</td>
-                    <td>Sri vidyanikethan engineering college</td>
-                    <td>9.77</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Vidyasree</td>
-                    <td>B.Tech</td>
-                    <td>Sri vidyanikethan engineering college</td>
-                    <td>8.77</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Mokshi</td>
-                    <td>B.Tech</td>
-                    <td>Sri vidyanikethan engineering college</td>
-                    <td>9.45</td>
-                </tr>
 
-            </tbody>
-            <tfoot>
-
-            </tfoot>
-        </table>
-    </div>
+var main=document.querySelector(".main");
+var child=document.querySelector(".child")
+  var heading=document.createElement('h1');
+      heading.textContent="welcome"
+      child.appendChild(heading);
+      main.appendChild(child);
+      var content=document.getElementById.innerHTML;
+        console.log(content);
+</script>
 </body>
 </html>
