@@ -391,7 +391,7 @@ this.state={
 ### Hooks
 
 + from react 16.8 version hooks are introduced 
-- To maintain informationa in functional component we can use state
+- To maintain informationa in functional component we can use Hooks
 - Parent - child1 --> child2 -->child3
 - `useState()`
 - `useEffect()`
@@ -418,7 +418,16 @@ this.state={
     - `element`
 
 + Redux
-
+ - To maintain entire project information we use redux
+- uname
+- pword
+- email
+    - submit
+- update
+    - uname --> null
+    - pword --> pword
+    - email -->email   
+        - submit
      
 
 
