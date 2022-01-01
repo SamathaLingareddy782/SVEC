@@ -364,6 +364,10 @@ Task3:
 + states
 
 - In react to maintain information we will use states
+- We can maintain class component only(Before rect 16.8 version)
+- To take state in react,Try to create constructor above render method and inside of class component
+- Use `rconst` snippet
+
 ```
 constructor() {
 
@@ -374,6 +378,49 @@ this.state={
 
 }
 ```
+-  To update the information class component use `setState()` method
+
++ To update the information in class component we have to follow component lifecycle methods
+   -  `componetWillMount()`
+   - `componeetDidMount()`
+   - `componentShouldupdate()`
+   - `componentWillUnmount()`
+   - `componentDidUpdate()`
+   - `shouldComponentUpdate()`
+   - `componentWillReceiveProps()`
+### Hooks
+
++ from react 16.8 version hooks are introduced 
+- To maintain informationa in functional component we can use state
+- Parent - child1 --> child2 -->child3
+- `useState()`
+- `useEffect()`
+- `useMemo()`
+- `useRef()`
+- `useContext()`
+
+
+### List Rendering
+### Event handling &form handling
+
+- `onChange`
+- `onSubmit`
+- `preventDefault`
+
+### Routing in React
+
++ To navigate (Route) from one component to another
+   - install react-router-dom package by using `npm install react-router-dom`
+    - `BrowserRouter`
+    - `Routes`
+    - `Link`
+    - `path`
+    - `element`
+
++ Redux
+
+     
+
 
 + Project Environmental setups
     - [Download Visual studio Code]()
