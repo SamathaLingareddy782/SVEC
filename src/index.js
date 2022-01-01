@@ -7,15 +7,21 @@ import Functional from './components/Functional';
 import UnionBank from './components/UnionBank';
 import StatesinClassComponent from './components/StatesinClassComponent';
 import StateinFunctionalComponents from './components/StateinFunctionalComponents';
+import ListRendering from './components/ListRendering';
+import FormRendering from './components/FormRendering';
+import Home from './components/Home';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App />
-   <Functional/> */}
+     {/* <App/> */}
+   {/* <Functional/> */} 
    {/* <UnionBank/> */}
    {/* <StatesinClassComponent/> */}
-   <StateinFunctionalComponents/>
+   {/* <StateinFunctionalComponents/> */}
+   {/* <ListRendering/> */}
+   {/* <FormRendering/> */}
+   <Home/>
   </React.StrictMode>,
   document.getElementById('root')
 );
